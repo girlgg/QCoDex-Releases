@@ -21,12 +21,6 @@ QCoDex's portable distribution includes third-party software and an embedded env
 | Additional format reference notice | Original retained notice | MIT; `licenses/notices/` |
 | Studio Small 09 | Sergej Majboroda / Poly Haven, embedded 1k HDR | CC0; `licenses/environment/` |
 
-## Qt sources and local changes
+## Qt
 
-The `v0.5.0` release includes `QCoDex-0.5.0-qt-sources.zip`, containing the Qt source components used for the shared kit, the two local build patch recipes, pinned Vulkan-Headers input, original component licenses and independent Qt rebuild instructions. It is not required to run the portable program.
-
-The kit applies a Vulkan declaration/build-path adjustment to Qt Quick and a swapchain acquisition-wait correction in Qt Gui. The changes are supplied in `patches/` in the source archive. Qt source files are provided with their original copyright and license notices.
-
-Users can replace the shared Qt libraries with interface-compatible modified versions, retaining the required QML modules and plugins. Qt build tools, sources and development SDKs are not application startup requirements.
-
-The component's original terms control where they differ from this summary. This repository does not assign a new common license to the program or its third-party components.
+The portable package uses shared Qt 6.12.0 libraries. Original component license texts are preserved under `licenses/qt/` in the package.

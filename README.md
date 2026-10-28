@@ -6,9 +6,9 @@ QCoDex is a Windows x64 workbench for browsing, previewing and exporting support
 
 ## Download
 
-**[Download QCoDex v0.5.0 for Windows x64](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.0/QCoDex-0.5.0-windows-x64.zip)** · [Release notes and checksums](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.0)
+The v0.5.0 preview is temporarily unavailable while the release contents are corrected.
 
-Version 0.5.0 is the first public preview. Download the program ZIP, not GitHub's automatically generated **Source code** archives. The separate Qt sources archive is for third-party source availability and rebuilding Qt; it is not required to run QCoDex.
+Version 0.5.0 is the first public preview. Download the program ZIP, not GitHub's automatically generated **Source code** archives.
 
 ## Requirements and first run
 
@@ -33,4 +33,4 @@ Please [open an issue](https://github.com/girlgg/QCoDex-Releases/issues) with th
 
 ## Third-party components
 
-Original third-party terms are included under `licenses/` in the portable package and are accessible in the About dialog. Corresponding Qt sources, local Qt changes and rebuild instructions are supplied as a separate release asset. See [third-party information](THIRD-PARTY-NOTICES.md).
+Original third-party terms are included under `licenses/` in the portable package and are accessible in the About dialog. See [third-party information](THIRD-PARTY-NOTICES.md).
