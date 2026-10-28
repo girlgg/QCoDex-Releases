@@ -6,7 +6,7 @@ QCoDex is a Windows x64 workbench for browsing, previewing and exporting support
 
 ## Download
 
-The v0.5.0 preview is temporarily unavailable while the release contents are corrected.
+**[Download QCoDex v0.5.0 for Windows x64](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.0/QCoDex-0.5.0-windows-x64.zip)** · [Release notes](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.0)
 
 Version 0.5.0 is the first public preview. Download the program ZIP, not GitHub's automatically generated **Source code** archives.
 

@@ -6,7 +6,7 @@ QCoDex 是面向 Windows x64 的游戏资源浏览、预览与导出工作台。
 
 ## 下载
 
-v0.5.0 预览版已暂时撤回，正在修正发布内容。
+**[下载 QCoDex v0.5.0 Windows x64 便携包](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.0/QCoDex-0.5.0-windows-x64.zip)** · [版本说明](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.0)
 
 `0.5.0` 为首个公开预览版。请下载程序 ZIP，不要下载 GitHub 自动生成的 **Source code** 压缩包。
 
