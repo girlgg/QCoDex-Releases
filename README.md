@@ -4,15 +4,11 @@
 
 QCoDex is a Windows x64 workbench for browsing, previewing and exporting supported game assets. This repository provides binary releases and usage information.
 
-## Upcoming preview
-
-0.5.1 is being prepared and is not yet published. [Draft release notes](release-notes/0.5.1.en.md). The download below remains 0.5.0.
-
 ## Download
 
-**[Download QCoDex v0.5.0 for Windows x64](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.0/QCoDex-0.5.0-windows-x64.zip)** · [Release notes](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.0)
+**[Download QCoDex v0.5.1 for Windows x64](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.1/QCoDex-0.5.1-windows-x64.zip)** · [Release notes](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.1)
 
-Version 0.5.0 is the first public preview. Download the program ZIP, not GitHub's automatically generated **Source code** archives.
+Version 0.5.1 is a public preview update. [Detailed changes](release-notes/0.5.1.en.md). Download the program ZIP, not GitHub's automatically generated **Source code** archives.
 
 ## Requirements and first run
 
@@ -21,11 +17,11 @@ Version 0.5.0 is the first public preview. Download the program ZIP, not GitHub'
 - Qt, the VC++ runtime and application dependencies are bundled. No separate Qt, VC++ Redistributable or development SDK installation is required.
 - Select your own game installation when you want to browse assets. The workbench can open without a registered game; game assets are not included.
 
-The program provides asset browsing and search, image/model/material previews, model exports to CAST/FBX/glTF, image exports to PNG/DDS, and supported audio exports to WAV/FLAC. Available operations depend on the actual source format, asset type and required data. English and Simplified Chinese interfaces, light/dark themes and CLI commands are included. Run `QCoDex.exe --help` for CLI usage.
+The program provides asset browsing and search, image/model/material previews, model exports to CAST/FBX/glTF, image exports to PNG/DDS, and supported audio exports to WAV/FLAC. Available operations depend on the actual source format, asset type and required data. English and Simplified Chinese interfaces, light/dark themes and CLI commands are included. Run `QCoDex-Cmd.exe --help` for CLI usage.
 
 ## Data and upgrades
 
-For the upcoming 0.5.1 preview, configuration lives in `config/` beside the executables; the database, caches and user documents default to `data/`. Back up the complete old application folder and extract the new version into a new writable folder. Old settings, registrations, dictionaries and catalogs are not migrated. Do not copy the old `data/` or `config/` directory over the new version. Keep independent backups of user projects; cross-version project compatibility has not been verified.
+In 0.5.1, configuration lives in `config/` beside the executables; the database, caches and user documents default to `data/`. Back up the complete old application folder and extract the new version into a new writable folder. Old settings, registrations, dictionaries and catalogs are not migrated. Do not copy the old `data/` or `config/` directory over the new version. Keep independent backups of user projects; cross-version project compatibility has not been verified.
 
 Network downloads require explicit permission for the relevant operation.
 

@@ -31,4 +31,4 @@ The portable package uses shared Qt 6.12.0 libraries. Original component license
 
 ## Distribution scope
 
-This list describes the 0.5.1 portable candidate. nlohmann/json and toml++ are no longer product dependencies. RenderDoc itself and the optional Tracy capture/report tools are not bundled. The RenderDoc SDK header and replay adapter notices are retained in `licenses/renderdoc/`; Tracy client terms remain in `licenses/tracy/`.
+This list describes the 0.5.1 portable release. nlohmann/json and toml++ are no longer product dependencies. RenderDoc itself and the optional Tracy capture/report tools are not bundled. The RenderDoc SDK header and replay adapter notices are retained in `licenses/renderdoc/`; Tracy client terms remain in `licenses/tracy/`.
