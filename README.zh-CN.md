@@ -4,6 +4,10 @@
 
 QCoDex 是面向 Windows x64 的游戏资源浏览、预览与导出工作台。本仓库提供程序发布版和使用说明。
 
+## 下一预览版
+
+0.5.1 正在准备，尚未发布。[更新说明草稿](release-notes/0.5.1.zh-CN.md)。以下下载仍为 0.5.0。
+
 ## 下载
 
 **[下载 QCoDex v0.5.0 Windows x64 便携包](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.0/QCoDex-0.5.0-windows-x64.zip)** · [版本说明](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.0)
@@ -21,7 +25,7 @@ QCoDex 是面向 Windows x64 的游戏资源浏览、预览与导出工作台。
 
 ## 数据与升级
 
-设置、缓存及用户文档默认保存在程序旁的 `data/`。不要单独移动 EXE。升级前退出全部实例，备份**完整的 `data/`**，在新目录解压新版后再迁移保留的数据。
+即将发布的 0.5.1 预览版将配置保存在 EXE 同级 `config/`，数据库、缓存和用户文档默认保存在 `data/`。请备份完整旧程序目录，在新的可写目录解压新版。旧设置、安装登记、词库和目录库不迁移，不要用旧 `data/` 或 `config/` 覆盖新版。用户工程保留独立备份，本次未验证其跨版本兼容性。
 
 联网下载须由具体操作明确允许。
 

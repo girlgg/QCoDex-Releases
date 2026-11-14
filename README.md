@@ -4,6 +4,10 @@
 
 QCoDex is a Windows x64 workbench for browsing, previewing and exporting supported game assets. This repository provides binary releases and usage information.
 
+## Upcoming preview
+
+0.5.1 is being prepared and is not yet published. [Draft release notes](release-notes/0.5.1.en.md). The download below remains 0.5.0.
+
 ## Download
 
 **[Download QCoDex v0.5.0 for Windows x64](https://github.com/girlgg/QCoDex-Releases/releases/download/v0.5.0/QCoDex-0.5.0-windows-x64.zip)** · [Release notes](https://github.com/girlgg/QCoDex-Releases/releases/tag/v0.5.0)
@@ -21,7 +25,7 @@ The program provides asset browsing and search, image/model/material previews, m
 
 ## Data and upgrades
 
-Settings, caches and user documents default to `data/` beside the executable. Do not move the EXE on its own. Before upgrading, close all QCoDex instances and back up the **complete** `data/` directory. Extract the new version to a new folder before transferring your preserved data.
+For the upcoming 0.5.1 preview, configuration lives in `config/` beside the executables; the database, caches and user documents default to `data/`. Back up the complete old application folder and extract the new version into a new writable folder. Old settings, registrations, dictionaries and catalogs are not migrated. Do not copy the old `data/` or `config/` directory over the new version. Keep independent backups of user projects; cross-version project compatibility has not been verified.
 
 Network downloads require explicit permission for the relevant operation.
 

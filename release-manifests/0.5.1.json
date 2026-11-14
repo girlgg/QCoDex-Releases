@@ -1,0 +1,16 @@
+{
+  "product": "QCoDex",
+  "version": "0.5.1",
+  "tag": "v0.5.1",
+  "prerelease": true,
+  "platform": "windows-x64",
+  "source_commit": "08b0d8eae2368b2443ff0e3b1ae9e221cf32e18c",
+  "assets": [
+    {
+      "name": "QCoDex-0.5.1-windows-x64.zip",
+      "bytes": 94682702,
+      "sha256": "46d9736e27e862150240805f7143e0f390a8012578d339040094a62d5483e5ce"
+    }
+  ],
+  "publication_status": "prepared_for_review"
+}
