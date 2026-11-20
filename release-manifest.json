@@ -1,15 +1,20 @@
 {
   "product": "QCoDex",
-  "version": "0.5.1",
-  "tag": "v0.5.1",
+  "version": "0.5.2",
+  "tag": "v0.5.2",
   "prerelease": true,
   "platform": "windows-x64",
-  "source_commit": "08b0d8eae2368b2443ff0e3b1ae9e221cf32e18c",
+  "source_commit": "43dd193663f70302ae24e75cc6f430db8d19b44f",
   "assets": [
     {
-      "name": "QCoDex-0.5.1-windows-x64.zip",
-      "bytes": 94682702,
-      "sha256": "46d9736e27e862150240805f7143e0f390a8012578d339040094a62d5483e5ce"
+      "name": "QCoDex-0.5.2-windows-x64.zip",
+      "bytes": 156899212,
+      "sha256": "ac4d63389183a03996546d460e08ab109725a780ea0759822e4f8e7a49eeba33"
+    },
+    {
+      "name": "QCoDex-0.5.2-qt-6.12.0-source.tar.gz",
+      "bytes": 126771912,
+      "sha256": "4aa127dcbb5cd0ed1388f22749a02d4d8065e0a109379f173976b7ba9116bb84"
     }
   ],
   "publication_status": "published"

@@ -23,6 +23,8 @@ QCoDex's portable distribution includes third-party software and an embedded env
 | bcdec | Fixed upstream header | MIT selection; `licenses/bcdec/` |
 | Radiance decoder adaptation | image 0.25.10 source | MIT; `licenses/radiance/` |
 | Additional format reference notice | Original retained notice | MIT; `licenses/notices/` |
+| Intel Open Image Denoise | 2.5.1 Windows GPU runtime and bundled device backends | Original licenses and third-party notices in `licenses/denoise/` |
+| NVIDIA OptiX / CUDA headers | 9.1.0 / 13.0.96 API headers used at build time | Original terms in `licenses/denoise/`; execution uses the system NVIDIA driver |
 | Studio Small 09 | Sergej Majboroda / Poly Haven, embedded 1k HDR | CC0; `licenses/environment/` |
 
 ## Qt
@@ -31,4 +33,4 @@ The portable package uses shared Qt 6.12.0 libraries. Original component license
 
 ## Distribution scope
 
-This list describes the 0.5.1 portable release. nlohmann/json and toml++ are no longer product dependencies. RenderDoc itself and the optional Tracy capture/report tools are not bundled. The RenderDoc SDK header and replay adapter notices are retained in `licenses/renderdoc/`; Tracy client terms remain in `licenses/tracy/`.
+This list describes the 0.5.2 portable release. nlohmann/json and toml++ are no longer product dependencies. RenderDoc itself and the optional Tracy capture/report tools are not bundled. The RenderDoc SDK header and replay adapter notices are retained in `licenses/renderdoc/`; Tracy client terms remain in `licenses/tracy/`.
